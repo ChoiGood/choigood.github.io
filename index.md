@@ -55,13 +55,6 @@ Unity와 C#을 활용한 2D 액션 플랫폼 게임 개발 프로젝트입니다
 
 ## 📝 Latest Posts
 
-<ul>
-  {% for post in site.posts %}
-    <li>
-      <a href="{{ post.url | relative_url }}">{{ post.title }}</a> 
-      <small>({{ post.date | date: "%Y-%m-%d" }})</small>
-    </li>
-  {% endfor %}
-</ul>
+* [AI Learning Day 1 - AI와 LLM, 프롬프트의 기초](https://choigood.github.io/ai-learning-day-1/) (2026-11-07)
 
 ---
