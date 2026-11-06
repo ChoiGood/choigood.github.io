@@ -4,6 +4,7 @@ title: "AI Learning Day 1 - AI와 LLM, 프롬프트의 기초"
 date: 2026-11-07
 categories: [AI Learning]
 tags: [AI, LLM, Prompt Engineering]
+permalink: /ai-learning-day-1/
 ---
 
 # AI Learning Day 1 - AI와 LLM, 프롬프트의 기초
