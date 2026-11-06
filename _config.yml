@@ -1,7 +1,7 @@
 theme: jekyll-theme-minimal
-
 title: "ChoiGood | AI Learning Log"
 description: "AI 활용, 개발, 시스템 제작을 배우며 기록하는 개발자 블로그"
-permalink: /:title/
-
 author: ChoiGood
+future: true
+
+# permalink: /:title/
