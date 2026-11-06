@@ -50,3 +50,18 @@ Unity와 C#을 활용한 2D 액션 플랫폼 게임 개발 프로젝트입니다
 이 블로그는 학습 과정에서 알게 된 내용, 실험 결과, 문제 해결 과정을 기록하는 공간입니다.
 
 단순히 지식을 정리하는 것을 넘어, 직접 이해하고 활용하는 것을 목표로 합니다.
+
+---
+
+## 📝 Latest Posts
+
+<ul>
+  {% for post in site.posts %}
+    <li>
+      <a href="{{ post.url | relative_url }}">{{ post.title }}</a> 
+      <small>({{ post.date | date: "%Y-%m-%d" }})</small>
+    </li>
+  {% endfor %}
+</ul>
+
+---
