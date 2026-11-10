@@ -3,6 +3,8 @@ layout: default
 title: Home
 ---
 
+{% include navigation.html %}
+
 # Hi, I'm ChoiGood 👋
 
 AI 활용부터 개발, AI 시스템 제작까지 학습하며 기록하는 개발자입니다.
