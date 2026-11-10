@@ -4,6 +4,8 @@ title: About
 permalink: /about/
 ---
 
+{% include navigation.html %}
+
 # About Me
 
 안녕하세요. ChoiGood입니다.
