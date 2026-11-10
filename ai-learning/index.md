@@ -4,6 +4,8 @@ title: AI Learning
 permalink: /ai-learning/
 ---
 
+{% include navigation.html %}
+
 # AI Learning Log
 
 AI 활용, 개발 및 AI 시스템 제작을 공부하며 기록하는 공간입니다.
