@@ -99,3 +99,15 @@ public class Player : MonoBehaviour
 
 오늘은 Markdown의 기본 문법과 코드 블록 작성 방법을 연습했습니다.
 
+---
+
+## Git 연동 실습
+
+이번에는 VS Code에서 Markdown 파일을 수정하고,
+Git을 사용해 GitHub 저장소에 반영했습니다.
+
+- 작업 환경: Visual Studio Code
+- 버전 관리: Git
+- 원격 저장소: GitHub
+- 배포: GitHub Pages
+
