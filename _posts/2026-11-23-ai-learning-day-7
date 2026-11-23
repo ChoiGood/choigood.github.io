@@ -1,0 +1,211 @@
+---
+layout: default
+title: "AI Learning Day 7 - Python 기초 문법과 자료형 이해하기"
+date: 2026-11-23
+categories: [AI Learning]
+tags:
+  - AI
+  - Python
+  - Programming Basics
+  - Data Types
+  - JSON
+permalink: /ai-learning-day-7/
+---
+
+# AI Learning Day 7 - Python 기초 문법과 자료형 이해하기
+
+## 1. 학습 목표
+
+Day 6에서는 Python 개발 환경을 구성하고 프로그램을 실행하기 위한 기본적인 준비를 진행했다.
+
+이제 Python으로 실제 코드를 작성하기 위해 기본 문법과 자료형을 학습할 차례다.
+
+앞으로 AI API를 호출하고 응답 데이터를 처리하려면 Python 코드를 읽고 작성할 수 있어야 한다.
+
+이번 학습에서는 다음 내용을 중심으로 공부할 예정이다.
+
+1. Python 기본 문법과 변수
+2. 기본 자료형과 자료형 확인
+3. 리스트(List)와 딕셔너리(Dictionary)
+4. 조건문과 반복문
+5. 함수(Function)
+6. Python의 자료구조와 JSON의 관계
+
+단순히 문법을 암기하기보다는 각 문법이 어떤 상황에서 사용되는지 이해하는 것을 목표로 한다.
+
+## 2. 변수와 기본 자료형
+
+먼저 Python에서 데이터를 저장하고 사용하는 방법을 학습한다.
+
+주요 학습 내용은 다음과 같다.
+
+- 변수 선언과 값 할당
+- 변수 이름 작성 규칙
+- 정수형(int)
+- 실수형(float)
+- 문자열(str)
+- 불리언(bool)
+- 자료형 확인을 위한 `type()`
+
+특히 C#을 사용했던 경험을 바탕으로 Python과 C#의 변수 선언 및 자료형 차이를 비교해 볼 예정이다.
+
+예상 학습 코드:
+
+```python
+name = "AI Learning"
+age = 27
+height = 175.5
+is_learning = True
+
+print(type(name))
+print(type(age))
+print(type(height))
+print(type(is_learning))
+```
+
+## 3. 리스트(List)와 딕셔너리(Dictionary)
+
+Python에서는 여러 데이터를 관리하기 위해 다양한 자료구조를 제공한다.
+
+이번 학습에서는 특히 리스트와 딕셔너리를 살펴본다.
+
+### 3-1. 리스트(List)
+
+리스트는 여러 데이터를 순서대로 저장하는 자료구조다.
+
+주요 학습 내용:
+
+- 리스트 생성
+- 인덱스를 통한 데이터 접근
+- 데이터 추가와 삭제
+- 리스트 순회
+- 리스트와 C#의 List 비교
+
+### 3-2. 딕셔너리(Dictionary)
+
+딕셔너리는 Key와 Value를 연결하여 데이터를 관리하는 자료구조다.
+
+주요 학습 내용:
+
+- 딕셔너리 생성
+- Key를 통한 데이터 접근
+- 데이터 추가와 수정
+- 데이터 삭제
+- 딕셔너리 순회
+
+예상 학습 코드:
+
+```python
+user = {
+    "name": "AI Learning",
+    "level": 1,
+    "is_active": True
+}
+
+print(user["name"])
+print(user["level"])
+```
+
+딕셔너리는 이후 JSON 데이터를 다룰 때도 자주 사용되므로 중요하게 학습할 예정이다.
+
+## 4. 조건문과 반복문
+
+프로그램의 실행 흐름을 제어하는 방법을 학습한다.
+
+### 4-1. 조건문
+
+조건에 따라 서로 다른 코드를 실행하는 방법을 살펴본다.
+
+- if
+- elif
+- else
+- 비교 연산자
+- 논리 연산자
+
+### 4-2. 반복문
+
+특정 작업을 반복적으로 수행하는 방법을 학습한다.
+
+- for
+- while
+- range()
+- break
+- continue
+
+Python의 반복문과 C#의 반복문을 비교하면서 문법적인 차이도 확인할 예정이다.
+
+## 5. 함수(Function)
+
+함수는 특정 작업을 수행하는 코드들을 하나의 단위로 묶어 재사용할 수 있도록 해준다.
+
+주요 학습 내용:
+
+- 함수 정의
+- 매개변수(Parameter)
+- 반환값(Return)
+- 기본 매개변수
+- 함수의 재사용성
+
+예상 학습 코드:
+
+```python
+def add(a, b):
+    return a + b
+
+result = add(10, 20)
+
+print(result)
+```
+
+함수를 사용하는 이유와 프로그램을 기능별로 분리하는 방법도 함께 이해할 예정이다.
+
+## 6. Python과 JSON의 관계
+
+Day 5에서 JSON의 기본 개념을 학습했다.
+
+이번에는 Python의 자료구조가 JSON과 어떤 관계를 갖는지 연결해서 살펴볼 예정이다.
+
+예를 들어 Python 딕셔너리는 JSON 객체와 구조적으로 유사하다.
+
+```python
+user = {
+    "name": "AI Learning",
+    "level": 1
+}
+```
+
+이를 JSON 문자열로 변환하거나 JSON 문자열을 Python 객체로 변환하는 방법도 복습할 예정이다.
+
+```python
+import json
+
+# Python 객체를 JSON 문자열로 변환
+json_data = json.dumps(user)
+
+# JSON 문자열을 Python 객체로 변환
+python_data = json.loads(json_data)
+```
+
+앞으로 AI API를 호출하면 JSON 형식으로 요청을 보내고 응답을 받게 된다.
+
+따라서 Python 자료구조와 JSON의 관계를 이해하는 것은 이후 API 개발을 위한 중요한 기초가 된다.
+
+## 7. 학습 후 확인할 내용
+
+이번 학습을 마친 뒤 다음 항목들을 스스로 설명하고 활용할 수 있는지 확인할 예정이다.
+
+- Python의 기본 자료형을 구분할 수 있는가?
+- 리스트와 딕셔너리의 차이를 설명할 수 있는가?
+- 조건문과 반복문을 활용할 수 있는가?
+- 함수를 정의하고 반환값을 사용할 수 있는가?
+- Python 딕셔너리와 JSON 객체의 관계를 설명할 수 있는가?
+
+단순히 예제 코드를 따라 작성하는 것에서 끝내지 않고, 직접 코드를 작성하고 실행 결과를 확인하는 방식으로 학습할 계획이다.
+
+## 8. 다음 학습 계획
+
+Day 7에서는 Python 기본 문법과 자료형을 익히는 데 집중한다.
+
+이후에는 Python을 활용해 HTTP 요청을 보내고 응답을 처리하는 방법을 학습할 예정이다.
+
+궁극적으로는 Python으로 AI API를 호출하고, 응답 데이터를 분석하고 검증할 수 있는 간단한 프로그램을 만드는 것이 목표다.
